@@ -140,13 +140,13 @@ if __name__ == "__main__":
 		try:
 			speed = float(sys.argv[sys.argv.index("--time-out")+1])
 			if speed <= 0:
-				speed = 0.3
+				speed = 0.5
 			elif speed > 5:
-				speed = 0.3
+				speed = 0.5
 		except:
-			speed = 0.3
+			speed = 0.5
 	else:
-		speed = 0.3
+		speed = 0.5
 	
 	
 	try:
